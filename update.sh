@@ -12,6 +12,7 @@ function test_retcode() {
 		exit $?
 	fi
 }
+printf "linux4coder update log\n" > ${LOG_FILE}
 printf "Updating linux4coder workspace\n"
 printf "* creating temporary folders \t\t"
 mkdir ${INIT_TMP} 2> ${LOG_FILE}
